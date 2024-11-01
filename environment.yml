@@ -1,0 +1,8 @@
+name: PFD1_Project
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy=1.19.2
+  - matplotlib=3.3.2
+  - networkx=2.5
