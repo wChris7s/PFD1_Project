@@ -105,3 +105,6 @@ class DatasetLoader:
         if self.__data is None:
             raise ValueError("Data has not been loaded yet. Please call load_data() first.")
         return self.__data
+
+    def get_dataset_name(self) -> DatasetType:
+        return self.__dataset_name
