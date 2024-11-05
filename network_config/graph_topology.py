@@ -4,7 +4,6 @@ import numpy as np
 
 from network_config.graph_types import GraphType
 
-
 class GraphTopology:
     __graph_type: GraphType
     __number_of_nodes: int
